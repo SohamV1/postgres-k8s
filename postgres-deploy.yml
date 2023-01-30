@@ -17,11 +17,11 @@ spec:
         image: postgres
         env:
           - name: POSTGRES_USER
-            key: "root"
+            value: "root"
           - name: POSTGRES_PASSWORD
-            key: "p@ssword"
+            value: "p@ssword"
           - name: POSTGRES_DB
-            key: "mydb"
+            value: "mydb"
         resources:
           limits:
             memory: "128Mi"
