@@ -22,10 +22,6 @@ spec:
             value: "p@ssword"
           - name: POSTGRES_DB
             value: "mydb"
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 5432
         volumeMounts:

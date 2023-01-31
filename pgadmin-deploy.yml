@@ -20,12 +20,6 @@ spec:
             value: "admin@admin.com"
           - name: PGADMIN_DEFAULT_PASSWORD
             value: "p@ssword"
-          - name: PGADMIN_PORT
-            value: "80"
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 80
 ---
